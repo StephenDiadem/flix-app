@@ -328,16 +328,29 @@ section h2 {
 
 /* Alert */
 .alert {
-  background: red;
   padding: 10px 20px;
   margin-bottom: 20px;
   border-radius: 5px;
 }
 
-.alert-success {
+.success {
   background: green;
 }
 
-.alert-error {
+.error {
   background: red;
+}
+
+
+@media (max-width: 768px) {
+  .details-top {
+    flex-direction: column;
+    /* text-align: center; */
+  }
+
+  .details-top img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
 }
